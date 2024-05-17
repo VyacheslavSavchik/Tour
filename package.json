@@ -1,8 +1,9 @@
 {
-  "devDependencies": {
-    "nodemon": "^3.1.0"
+  "scripts": {
+    "compile:sass": "node-sass sass/main.scss css/style.css -w"
   },
-  "dependencies": {
-    "node-sass": "^9.0.0"
+  "devDependencies": {
+    "node-sass": "^9.0.0",
+    "nodemon": "^3.1.0"
   }
 }
